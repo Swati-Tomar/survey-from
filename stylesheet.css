@@ -1,0 +1,132 @@
+body{
+}
+#heading{
+  width: 640px;
+  margin: auto;
+}
+#title{
+  text-align: center;
+  color: #008080;
+  margin-bottom: -16px; 
+  
+}
+#description{
+  Text-align: center;
+  color: #008080;
+  
+}
+.main{
+  width: 500px;
+  margin:auto;
+  border-radius: 10px;
+  background-color: #f2f2f2;
+  padding-left: 40px;
+  padding-top: 40px; 
+  font-family: sans-serif;
+  color: #FFFFFF;
+}
+#survey-form{
+  color: #000000;
+  
+}
+#name-label{
+  font-size: 13px;
+  
+}
+#name{
+  width: 90%;
+  height: 25px;
+  padding-left: 10px;
+  border-style: none;
+  border-radius: 7px;
+  box-shadow: 2px 2px 1px #008080;
+}
+#email-label{
+  font-size: 13px;
+}
+#email{
+  width: 90%;
+  height: 25px;
+  padding-left: 10px;
+  border-style: none;
+  border-radius: 7px;
+  box-shadow: 2px 2px 1px #008080;
+}
+#number-label{
+  font-size: 13px;
+}
+#number{
+  width: 90%;
+  height: 25px;
+  padding-left: 10px;
+  border-style: none;
+  border-radius: 7px;
+  box-shadow: 2px 2px 0px #008080;
+}
+#experience{
+  font-size: 13px;
+}
+#dropdown{
+  width: 93%;
+  height: 25px;
+  padding-left: 10px;
+  border-style: none;
+  border-radius: 7px;
+  box-shadow: 2px 2px 1px #008080;
+}
+#radiofieldset
+{
+  width: 88%; 
+  font-size: 13px;
+  border-style: none;
+  border-radius: 7px;
+   box-shadow: 2px 2px 1px #008080;
+}
+#checkboxfield{
+  width:88%;
+  font-size: 13px;
+  border-style: none;
+  border-radius: 7px;
+   box-shadow: 2px 2px 1px #008080;
+}
+
+#comm{
+  font-size: 13px;
+}
+#text-area{
+  width: 92%;
+  border-style: none;
+  border-radius: 7px;
+  margin-top: 4px;
+  margin-bottom: 10px;
+  border-style: none;
+  border-radius: 7px;
+  box-shadow: 2px 2px 1px #008080;
+  
+}
+#instruction{
+  color: red;
+  font-size: 8px;
+  margin-top:-10px;
+  
+}
+#submit{
+  width: 200px;
+  margin-left: 140px;
+  margin-bottom: 15px;
+  background-color: hsl(180,90%,38%);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-style: none;
+  border-radius: 7px;
+  box-shadow: 2px 2px 2px 2px #008080 ; 
+}
+@media(max-width:480px){
+  .main{
+    width: 400px;
+  }
+  #heading{
+    width: 400px;
+  }
+} 
+
